@@ -48,7 +48,7 @@ const MainMenu = ({ selectedMasjid }) => {
     };
 
     return (
-        <main className='w-full items-center justify-center'>
+        <main className='w-full items-center justify-center bg-pink-200'>
             <div className="w-[100%] h-full flex items-center justify-evenly  shadow-md border-t p-4 flex-wrap">
                 {selectedMasjid ? (
                     <>

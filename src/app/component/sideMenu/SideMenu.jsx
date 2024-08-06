@@ -1,9 +1,8 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import MasjidList from './masjid/masjid'; // Ensure the import path is correct
-import AddMasjid from './masjid/AddMasjid'; // Ensure the import path is correct
-import EditMasjid from './masjid/EditMasjid'; // Ensure the import path is correct
-import Timetable from '../TimeTable'; // Ensure the import path is correct
+import MasjidList from './masjid/masjid'; 
+import AddMasjid from './masjid/AddMasjid'; 
+import EditMasjid from './masjid/EditMasjid'; 
 
 const SideMenu = ({ onSelectMasjid }) => {
     const [masjids, setMasjids] = useState([]);
@@ -122,7 +121,7 @@ const SideMenu = ({ onSelectMasjid }) => {
     };
 
     return (
-        <aside className="w-[80%] bg-pink-300 h-screen p-5">
+        <aside className="w-[80%] h-screen p-5">
             <h2 className="text-xl font-bold mb-4">Masjid List</h2>
             {loading && <p>Loading...</p>}
             {error && <p className="text-red-500">{error}</p>}
