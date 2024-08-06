@@ -122,7 +122,7 @@ const SideMenu = ({ onSelectMasjid }) => {
     };
 
     return (
-        <aside className="w-[100%] bg-pink-300 h-screen p-5">
+        <aside className="w-[80%] bg-pink-300 h-screen p-5">
             <h2 className="text-xl font-bold mb-4">Masjid List</h2>
             {loading && <p>Loading...</p>}
             {error && <p className="text-red-500">{error}</p>}
