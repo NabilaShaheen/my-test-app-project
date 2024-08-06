@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import MasjidList from './masjid/masjid'; 
 import AddMasjid from './masjid/AddMasjid'; 
-import EditMasjid from './masjid/EditMasjid'; 
+import EditMasjid from './masjid/editMasjid';
 
 const SideMenu = ({ onSelectMasjid }) => {
     const [masjids, setMasjids] = useState([]);
